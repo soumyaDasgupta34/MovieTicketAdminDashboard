@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+  font-size: 1rem !important;
+}
+
+.active {
+  background-color: white;
+  border-left: 6px solid #16b8be;
+  color: black;
+  width: 100%;
+}
+
+.box-shadow {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(51, 51, 45, 0.47);
+}
+
+.icon {
+  /* font-size: 8px;
+  padding: 5px; */
+  border-radius: 5px;
+  align-self: flex-end;
+}
